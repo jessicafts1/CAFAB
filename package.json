@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "oracledb": "^26.0.0"
+  },
+  "allowScripts": {
+    "oracledb@26.0.0": true
+  }
+}
