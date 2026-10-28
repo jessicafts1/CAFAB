@@ -1,0 +1,37 @@
+/* Definição do Design System da Ford */
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #081534; /* Azul escuro de fundo corporativo */
+    color: #FFFFFF;
+}
+
+.ford-header {
+    background-color: #003478; /* O clássico Azul Ford */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #47A8E5; /* Linha de destaque azul claro */
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background-color: #133A7C; /* Variação de azul para os blocos */
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    border-left: 5px solid #FFFFFF;
+}
+
+.metric {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
